@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Mail, Phone, LinkedinIcon, CheckCircle, Users, Target, Lightbulb, Sparkles, Star } from "lucide-react";
@@ -80,19 +79,46 @@ const Index = () => {
         </div>
       </section>
 
-      {/* What I Bring Section */}
+      {/* About Me Section */}
       <section id="about" className="py-20 bg-white relative">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-50/30 to-transparent"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 bg-blue-100 rounded-full px-4 py-2 mb-4">
               <Target className="w-4 h-4 text-blue-600" />
-              <span className="text-sm font-medium text-blue-800">What I Bring</span>
+              <span className="text-sm font-medium text-blue-800">About Me</span>
             </div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Unique Strategic Vision</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A unique blend of strategic vision, emotional intelligence, and purpose-led leadership, developed over a successful career as a CEO and board advisor.
-            </p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-8">Meet Gwynn Milligan</h2>
+          </div>
+          
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-shadow duration-300 border border-blue-100 mb-12">
+              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+                <p>
+                  I'm Gwynn Milligan — a strategic advisor, Non-Executive Director, and former CEO with over 30 years' experience in retail, fashion, and consumer brands.
+                </p>
+                <p>
+                  I've led teams and businesses through transformation, growth, and change, most recently as CEO of JoJo Maman Bébé. Today, I work with boards and founders to bring clarity, purpose, and long-term value.
+                </p>
+                <p>
+                  I currently support organisations such as Raishma, Herts at Home, Wellbeing of Women, and Cornwall FA, helping them navigate complexity and scale with integrity.
+                </p>
+                <p>
+                  My approach is grounded in empathy, strategic insight, and a deep commitment to values-led leadership.
+                </p>
+              </div>
+            </div>
+            
+            <div className="text-center">
+              <div className="inline-flex items-center space-x-2 bg-green-100 rounded-full px-4 py-2 mb-4">
+                <CheckCircle className="w-4 h-4 text-green-600" />
+                <span className="text-sm font-medium text-green-800">What I Bring</span>
+              </div>
+              <h3 className="text-3xl font-bold text-gray-900 mb-4">Unique Strategic Vision</h3>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                A unique blend of strategic vision, emotional intelligence, and purpose-led leadership, developed over a successful career as a CEO and board advisor.
+              </p>
+            </div>
           </div>
         </div>
       </section>
