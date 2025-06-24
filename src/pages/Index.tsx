@@ -63,49 +63,8 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">What I Bring</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A unique combination of strategic vision, operational excellence, and governance expertise
+              A unique blend of strategic vision, emotional intelligence, and purpose-led leadership, developed over a successful career as a CEO and board advisor.
             </p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="h-full">
-              <CardHeader>
-                <Users className="h-12 w-12 text-primary mb-4" />
-                <CardTitle>Strategic Leadership</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600">
-                  Proven track record of guiding organizations through transformational growth, 
-                  strategic pivots, and complex market challenges with decisive leadership.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="h-full">
-              <CardHeader>
-                <Target className="h-12 w-12 text-primary mb-4" />
-                <CardTitle>Operational Excellence</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600">
-                  Deep expertise in optimizing business operations, implementing scalable processes, 
-                  and driving performance improvements across diverse industries.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="h-full">
-              <CardHeader>
-                <Lightbulb className="h-12 w-12 text-primary mb-4" />
-                <CardTitle>Innovation Catalyst</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600">
-                  Champion of innovation and digital transformation, helping organizations 
-                  adapt to changing markets and emerging technologies.
-                </p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
@@ -116,21 +75,8 @@ const Index = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">My Journey</h2>
             <div className="bg-white rounded-lg shadow-lg p-8">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                My career has been defined by a commitment to excellence and a passion for helping 
-                organizations reach their full potential. Over the past three decades, I have had 
-                the privilege of serving in various leadership roles across multiple industries.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                From my early days as a management consultant to my tenure as a C-suite executive, 
-                I have consistently focused on driving strategic growth, fostering innovation, and 
-                building high-performing teams. This journey has equipped me with a unique perspective 
-                on the challenges and opportunities facing modern organizations.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Today, I channel this experience into board advisory work, helping directors and 
-                leadership teams navigate complex decisions, optimize governance structures, and 
-                achieve sustainable growth in an increasingly competitive landscape.
+              <p className="text-lg text-gray-700 leading-relaxed text-center">
+                Following an extensive executive leadership career, I've entered a new chapter — focused on supporting businesses through purposeful leadership, Non-Executive Director (NED) roles, and strategic consultancy.
               </p>
             </div>
           </div>
@@ -142,9 +88,6 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Core Values</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The principles that guide every engagement and relationship
-            </p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -153,8 +96,7 @@ const Index = () => {
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Integrity</h3>
                 <p className="text-gray-600">
-                  Unwavering commitment to ethical leadership and transparent communication 
-                  in all business relationships and decisions.
+                  Doing the right thing — especially when it's not the easy option
                 </p>
               </div>
             </div>
@@ -162,10 +104,9 @@ const Index = () => {
             <div className="flex items-start space-x-4">
               <CheckCircle className="h-8 w-8 text-primary mt-1 flex-shrink-0" />
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Excellence</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Empathy</h3>
                 <p className="text-gray-600">
-                  Pursuing the highest standards in every engagement, delivering exceptional 
-                  value and measurable results for stakeholders.
+                  Connecting with people across all levels of an organization
                 </p>
               </div>
             </div>
@@ -173,10 +114,9 @@ const Index = () => {
             <div className="flex items-start space-x-4">
               <CheckCircle className="h-8 w-8 text-primary mt-1 flex-shrink-0" />
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Collaboration</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Purpose</h3>
                 <p className="text-gray-600">
-                  Building strong partnerships and fostering inclusive environments where 
-                  diverse perspectives drive innovative solutions.
+                  Driving business success with meaning and impact
                 </p>
               </div>
             </div>
@@ -184,10 +124,9 @@ const Index = () => {
             <div className="flex items-start space-x-4">
               <CheckCircle className="h-8 w-8 text-primary mt-1 flex-shrink-0" />
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Innovation</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Growth</h3>
                 <p className="text-gray-600">
-                  Embracing change and championing forward-thinking approaches to solve 
-                  complex challenges and create sustainable competitive advantages.
+                  Embracing change and continuous learning
                 </p>
               </div>
             </div>
@@ -199,102 +138,46 @@ const Index = () => {
       <section id="services" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Advisory Services</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">What I Do</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive board advisory services tailored to your organization's unique needs
+              Through GM Board Advisory, I offer independent governance and strategic expertise to help mission-aligned organizations thrive:
             </p>
           </div>
           
-          <div className="grid lg:grid-cols-2 gap-8">
+          <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card className="h-full">
               <CardHeader>
-                <CardTitle className="text-2xl">Strategic Planning & Governance</CardTitle>
-                <CardDescription>
-                  Comprehensive strategic planning and governance framework development
-                </CardDescription>
+                <Users className="h-12 w-12 text-primary mb-4" />
+                <CardTitle className="text-2xl">Non-Executive Director</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Board Effectiveness Assessment</h4>
-                  <p className="text-gray-600">Evaluate current board performance and identify improvement opportunities</p>
-                </div>
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Strategic Planning Facilitation</h4>
-                  <p className="text-gray-600">Guide long-term strategic planning processes and implementation</p>
-                </div>
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Governance Framework Design</h4>
-                  <p className="text-gray-600">Develop robust governance structures and best practices</p>
-                </div>
+              <CardContent>
+                <p className="text-gray-600">
+                  Bringing independent perspective and strategic oversight to your board.
+                </p>
               </CardContent>
             </Card>
 
             <Card className="h-full">
               <CardHeader>
-                <CardTitle className="text-2xl">Leadership Development</CardTitle>
-                <CardDescription>
-                  Executive coaching and leadership development programs
-                </CardDescription>
+                <Target className="h-12 w-12 text-primary mb-4" />
+                <CardTitle className="text-2xl">Board Advisory</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Executive Coaching</h4>
-                  <p className="text-gray-600">One-on-one coaching for C-suite executives and board members</p>
-                </div>
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Board Director Training</h4>
-                  <p className="text-gray-600">Comprehensive training programs for new and experienced directors</p>
-                </div>
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Succession Planning</h4>
-                  <p className="text-gray-600">Develop robust succession plans for key leadership positions</p>
-                </div>
+              <CardContent>
+                <p className="text-gray-600">
+                  Strategic guidance and governance expertise for effective board leadership.
+                </p>
               </CardContent>
             </Card>
 
             <Card className="h-full">
               <CardHeader>
-                <CardTitle className="text-2xl">Risk Management</CardTitle>
-                <CardDescription>
-                  Comprehensive risk assessment and mitigation strategies
-                </CardDescription>
+                <Lightbulb className="h-12 w-12 text-primary mb-4" />
+                <CardTitle className="text-2xl">Strategic Consultancy</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Risk Assessment</h4>
-                  <p className="text-gray-600">Identify and evaluate enterprise-wide risks and vulnerabilities</p>
-                </div>
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Crisis Management Planning</h4>
-                  <p className="text-gray-600">Develop comprehensive crisis response and business continuity plans</p>
-                </div>
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Compliance Oversight</h4>
-                  <p className="text-gray-600">Ensure regulatory compliance and ethical business practices</p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="h-full">
-              <CardHeader>
-                <CardTitle className="text-2xl">Organizational Transformation</CardTitle>
-                <CardDescription>
-                  Strategic change management and organizational development
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Change Management</h4>
-                  <p className="text-gray-600">Guide organizations through major transformational initiatives</p>
-                </div>
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Digital Transformation</h4>
-                  <p className="text-gray-600">Navigate technology adoption and digital business model evolution</p>
-                </div>
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Culture Development</h4>
-                  <p className="text-gray-600">Build high-performance cultures aligned with strategic objectives</p>
-                </div>
+              <CardContent>
+                <p className="text-gray-600">
+                  Purpose-driven strategic consulting to help your organization thrive.
+                </p>
               </CardContent>
             </Card>
           </div>
@@ -305,7 +188,7 @@ const Index = () => {
       <section id="contact" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Let's Connect</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Contact</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Ready to elevate your board's performance? Let's discuss how we can work together 
               to achieve your strategic objectives.
@@ -325,7 +208,7 @@ const Index = () => {
                   <Mail className="h-6 w-6 text-primary" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-gray-600">info@gmboardadvisory.com</p>
+                    <p className="text-gray-600">gwynn@gmboardadvisory.co.uk</p>
                   </div>
                 </div>
                 
@@ -333,15 +216,7 @@ const Index = () => {
                   <Phone className="h-6 w-6 text-primary" />
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  <LinkedinIcon className="h-6 w-6 text-primary" />
-                  <div>
-                    <p className="font-semibold">LinkedIn</p>
-                    <p className="text-gray-600">Connect on LinkedIn</p>
+                    <p className="text-gray-600">+44 (0)7720 089217</p>
                   </div>
                 </div>
                 
@@ -369,7 +244,7 @@ const Index = () => {
               Strategic Board Advisory for Growth-Oriented Organizations
             </p>
             <p className="text-gray-500 text-sm">
-              © 2024 GM Board Advisory. All rights reserved.
+              © 2025 GM Board Advisory. All rights reserved.
             </p>
           </div>
         </div>
