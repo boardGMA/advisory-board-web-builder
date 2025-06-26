@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
-    mode === 'development' && componentTagger(),
+    mode === "development" && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
@@ -16,5 +16,5 @@ export default defineConfig(({ mode }) => ({
   build: {
     outDir: "dist",
   },
-  base: "/", // This is important for GitHub Pages
+  base: "./", // ✅ Use this for GitHub Pages with custom domain
 }));
