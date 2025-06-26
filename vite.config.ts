@@ -4,8 +4,7 @@ import NotFound from "./pages/NotFound";
 
 function App() {
   return (
-    <BrowserRouter basename="/">
-      <Routes>
+       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
