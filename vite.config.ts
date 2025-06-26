@@ -16,5 +16,5 @@ export default defineConfig(({ mode }) => ({
   build: {
     outDir: "dist",
   },
-  base: "./", // ✅ Use this for GitHub Pages with custom domain
+  base: "/", // ✅ Use this for GitHub Pages with custom domain
 }));
