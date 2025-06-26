@@ -1,4 +1,4 @@
-unction Index() {
+function Index() {
   return (
     <div style={{ padding: "2rem", textAlign: "center" }}>
       <h1>GM Board Advisory</h1>
