@@ -1,4 +1,4 @@
-function Index() {
+function App() {
   return (
     <div style={{ padding: "2rem", textAlign: "center" }}>
       <h1>GM Board Advisory</h1>
@@ -9,4 +9,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default App;
