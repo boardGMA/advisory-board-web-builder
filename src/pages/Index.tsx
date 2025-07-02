@@ -1,8 +1,16 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Mail, Phone, LinkedinIcon, CheckCircle, Users, Target, Lightbulb, Sparkles, Star } from "lucide-react";
 
 const Index = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header/Navigation */}
@@ -16,10 +24,10 @@ const Index = () => {
             />
           </div>
           <nav className="hidden md:flex space-x-8">
-            <a href="#about" className="text-gray-700 hover:text-primary transition-colors relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left">About</a>
-            <a href="#services" className="text-gray-700 hover:text-primary transition-colors relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left">Services</a>
-            <a href="#values" className="text-gray-700 hover:text-primary transition-colors relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left">Values</a>
-            <a href="#contact" className="text-gray-700 hover:text-primary transition-colors relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left">Contact</a>
+            <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-primary transition-colors relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left">About</button>
+            <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-primary transition-colors relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left">Services</button>
+            <button onClick={() => scrollToSection('values')} className="text-gray-700 hover:text-primary transition-colors relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left">Values</button>
+            <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-primary transition-colors relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left">Contact</button>
           </nav>
         </div>
       </header>
@@ -51,14 +59,21 @@ const Index = () => {
                 I help boards and founders unlock long-term value through strategic insight & governance expertise
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-lg px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                  <a href="#contact" className="flex items-center space-x-2">
-                    <span>Get Started</span>
-                    <Sparkles className="w-4 h-4" />
-                  </a>
+                <Button 
+                  size="lg" 
+                  className="text-lg px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                  onClick={() => scrollToSection('contact')}
+                >
+                  <span>Get Started</span>
+                  <Sparkles className="w-4 h-4" />
                 </Button>
-                <Button variant="outline" size="lg" className="text-lg px-8 py-3 border-2 hover:bg-blue-50 transition-all duration-300 hover:border-blue-300">
-                  <a href="#services">Learn More</a>
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="text-lg px-8 py-3 border-2 hover:bg-blue-50 transition-all duration-300 hover:border-blue-300"
+                  onClick={() => scrollToSection('services')}
+                >
+                  Learn More
                 </Button>
               </div>
             </div>
