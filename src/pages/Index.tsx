@@ -335,7 +335,7 @@ const Index = () => {
                     size="lg"
                     onClick={handleScheduleConsultation}
                   >
-                    Schedule a Consultation
+                    Let's Connect
                   </Button>
                 </div>
               </CardContent>
