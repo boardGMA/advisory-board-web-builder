@@ -11,6 +11,11 @@ const Index = () => {
     }
   };
 
+  const handleScheduleConsultation = () => {
+    // Open email client with pre-filled subject
+    window.location.href = "mailto:gwynn@gmboardadvisory.co.uk?subject=Schedule a Consultation&body=Hi Gwynn,%0D%0A%0D%0AI'd like to schedule a consultation to discuss how you can help with our board and strategic needs.%0D%0A%0D%0ABest regards";
+  };
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header/Navigation */}
@@ -291,8 +296,7 @@ const Index = () => {
             </div>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Let's Connect</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ready to elevate your board's performance? Let's discuss how we can work together 
-              to achieve your strategic objectives.
+              If you're looking for board-level insight, strategic support or just want to explore how I can help — book a time to talk. I'd love to hear more about what you're working on.
             </p>
           </div>
           
@@ -326,7 +330,11 @@ const Index = () => {
                 </div>
                 
                 <div className="pt-4">
-                  <Button className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-lg hover:shadow-xl transition-all duration-300" size="lg">
+                  <Button 
+                    className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-lg hover:shadow-xl transition-all duration-300" 
+                    size="lg"
+                    onClick={handleScheduleConsultation}
+                  >
                     Schedule a Consultation
                   </Button>
                 </div>
